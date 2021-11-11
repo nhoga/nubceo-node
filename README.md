@@ -2,18 +2,18 @@ Project carried out in Node, server initialized by Express, jsonwebtoken for aut
 
 --- Routes ---
 
-Movies
+/movies
 -CRUD
 -Alphabetic filter
-TvShows
+/tvshows
 -CRUD
 -You can see all the chapters of a specific tv show
-Directors
+/directors
 -You can see all the directors, from both movies and tv shows
-Users
+/users
 -You can see the users
 -Encrypted passwords
-Auth
+/auth
 -You can register and log in as a user
 -Options like delete or edit you have to be authenticated to do it
 
