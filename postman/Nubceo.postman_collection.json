@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "6cf6baf0-d149-43f7-aed7-49231f849e92",
+		"name": "Nubceo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TvShows",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Game of Thrones\",\r\n    \"genre\":[\r\n\"Drama\",\r\n\"Adventure\",\r\n\"Fantasy\"\r\n],\r\n\"director\":\"Mark Mylod\",\r\n\"releaseDate\":\"2011-04-17\",\r\n\"episodes\":[\r\n{\r\n\"season\": 1,\r\n\"episode\": 1,\r\n\"name\": \"Winter is Coming\",\r\n\"air_date\": \"2011-04-18 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 2,\r\n\"name\": \"The Kingsroad\",\r\n\"air_date\": \"2011-04-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 3,\r\n\"name\": \"Lord Snow\",\r\n\"air_date\": \"2011-05-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 4,\r\n\"name\": \"Cripples, Bastards, and Broken Things\",\r\n\"air_date\": \"2011-05-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 5,\r\n\"name\": \"The Wolf and the Lion\",\r\n\"air_date\": \"2011-05-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 6,\r\n\"name\": \"A Golden Crown\",\r\n\"air_date\": \"2011-05-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 7,\r\n\"name\": \"You Win or You Die\",\r\n\"air_date\": \"2011-05-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 8,\r\n\"name\": \"The Pointy End\",\r\n\"air_date\": \"2011-06-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 9,\r\n\"name\": \"Baelor\",\r\n\"air_date\": \"2011-06-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 10,\r\n\"name\": \"Fire and Blood\",\r\n\"air_date\": \"2011-06-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 1,\r\n\"name\": \"The North Remembers\",\r\n\"air_date\": \"2012-04-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 2,\r\n\"name\": \"The Night Lands\",\r\n\"air_date\": \"2012-04-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 3,\r\n\"name\": \"What is Dead May Never Die\",\r\n\"air_date\": \"2012-04-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 4,\r\n\"name\": \"Garden of Bones\",\r\n\"air_date\": \"2012-04-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 5,\r\n\"name\": \"The Ghost of Harrenhal\",\r\n\"air_date\": \"2012-04-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 6,\r\n\"name\": \"The Old Gods and the New\",\r\n\"air_date\": \"2012-05-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 7,\r\n\"name\": \"A Man Without Honor\",\r\n\"air_date\": \"2012-05-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 8,\r\n\"name\": \"The Prince of Winterfell\",\r\n\"air_date\": \"2012-05-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 9,\r\n\"name\": \"Blackwater\",\r\n\"air_date\": \"2012-05-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 10,\r\n\"name\": \"Valar Morghulis\",\r\n\"air_date\": \"2012-06-04 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 1,\r\n\"name\": \"Valar Dohaeris\",\r\n\"air_date\": \"2013-04-01 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 2,\r\n\"name\": \"Dark Wings, Dark Words\",\r\n\"air_date\": \"2013-04-08 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 3,\r\n\"name\": \"Walk of Punishment\",\r\n\"air_date\": \"2013-04-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 4,\r\n\"name\": \"And Now His Watch is Ended\",\r\n\"air_date\": \"2013-04-22 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 5,\r\n\"name\": \"Kissed by Fire\",\r\n\"air_date\": \"2013-04-29 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 6,\r\n\"name\": \"The Climb\",\r\n\"air_date\": \"2013-05-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 7,\r\n\"name\": \"The Bear and the Maiden Fair\",\r\n\"air_date\": \"2013-05-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 8,\r\n\"name\": \"Second Sons\",\r\n\"air_date\": \"2013-05-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 9,\r\n\"name\": \"The Rains of Castamere\",\r\n\"air_date\": \"2013-06-03 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 10,\r\n\"name\": \"Mhysa\",\r\n\"air_date\": \"2013-06-10 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 1,\r\n\"name\": \"Two Swords\",\r\n\"air_date\": \"2014-04-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 2,\r\n\"name\": \"The Lion and the Rose\",\r\n\"air_date\": \"2014-04-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 3,\r\n\"name\": \"Breaker of Chains\",\r\n\"air_date\": \"2014-04-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 4,\r\n\"name\": \"Oathkeeper\",\r\n\"air_date\": \"2014-04-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 5,\r\n\"name\": \"First of His Name\",\r\n\"air_date\": \"2014-05-05 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 6,\r\n\"name\": \"The Laws of Gods and Men\",\r\n\"air_date\": \"2014-05-12 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 7,\r\n\"name\": \"Mockingbird\",\r\n\"air_date\": \"2014-05-19 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 8,\r\n\"name\": \"The Mountain and the Viper\",\r\n\"air_date\": \"2014-06-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 9,\r\n\"name\": \"The Watchers on the Wall\",\r\n\"air_date\": \"2014-06-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 10,\r\n\"name\": \"The Children\",\r\n\"air_date\": \"2014-06-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 1,\r\n\"name\": \"The Wars to Come\",\r\n\"air_date\": \"2015-04-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 2,\r\n\"name\": \"The House of Black and White\",\r\n\"air_date\": \"2015-04-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 3,\r\n\"name\": \"High Sparrow\",\r\n\"air_date\": \"2015-04-27 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 4,\r\n\"name\": \"Sons of the Harpy\",\r\n\"air_date\": \"2015-05-04 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 5,\r\n\"name\": \"Kill the Boy\",\r\n\"air_date\": \"2015-05-11 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 6,\r\n\"name\": \"Unbowed, Unbent, Unbroken\",\r\n\"air_date\": \"2015-05-18 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 7,\r\n\"name\": \"The Gift\",\r\n\"air_date\": \"2015-05-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 8,\r\n\"name\": \"Hardhome\",\r\n\"air_date\": \"2015-06-01 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 9,\r\n\"name\": \"The Dance of Dragons\",\r\n\"air_date\": \"2015-06-08 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 10,\r\n\"name\": \"Mother's Mercy\",\r\n\"air_date\": \"2015-06-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 1,\r\n\"name\": \"The Red Woman\",\r\n\"air_date\": \"2016-04-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 2,\r\n\"name\": \"Home\",\r\n\"air_date\": \"2016-05-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 3,\r\n\"name\": \"Oathbreaker\",\r\n\"air_date\": \"2016-05-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 4,\r\n\"name\": \"Book of the Stranger\",\r\n\"air_date\": \"2016-05-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 5,\r\n\"name\": \"The Door\",\r\n\"air_date\": \"2016-05-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 6,\r\n\"name\": \"Blood of My Blood\",\r\n\"air_date\": \"2016-05-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 7,\r\n\"name\": \"The Broken Man\",\r\n\"air_date\": \"2016-06-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 8,\r\n\"name\": \"No One\",\r\n\"air_date\": \"2016-06-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 9,\r\n\"name\": \"Battle of the Bastards\",\r\n\"air_date\": \"2016-06-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 10,\r\n\"name\": \"The Winds of Winter\",\r\n\"air_date\": \"2016-06-27 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 1,\r\n\"name\": \"Dragonstone\",\r\n\"air_date\": \"2017-07-17 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 2,\r\n\"name\": \"Stormborn\",\r\n\"air_date\": \"2017-07-24 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 3,\r\n\"name\": \"The Queen's Justice\",\r\n\"air_date\": \"2017-07-31 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 4,\r\n\"name\": \"The Spoils of War\",\r\n\"air_date\": \"2017-08-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 5,\r\n\"name\": \"Eastwatch\",\r\n\"air_date\": \"2017-08-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 6,\r\n\"name\": \"Beyond the Wall\",\r\n\"air_date\": \"2017-08-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 7,\r\n\"name\": \"The Dragon and the Wolf\",\r\n\"air_date\": \"2017-08-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 1,\r\n\"name\": \"Winterfell\",\r\n\"air_date\": \"2019-04-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 2,\r\n\"name\": \"A Knight of the Seven Kingdoms\",\r\n\"air_date\": \"2019-04-22 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 3,\r\n\"name\": \"The Long Night\",\r\n\"air_date\": \"2019-04-29 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 4,\r\n\"name\": \"The Last of the Starks\",\r\n\"air_date\": \"2019-05-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 5,\r\n\"name\": \"The Bells\",\r\n\"air_date\": \"2019-05-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 6,\r\n\"name\": \"The Iron Throne\",\r\n\"air_date\": \"2019-05-20 01:00:00\"\r\n}\r\n]\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/tvshows",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tvshows"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request Copy 3",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Game of Thrones\",\r\n    \"genre\":[\r\n\"Drama\",\r\n\"Adventure\",\r\n\"Fantasy\"\r\n],\r\n\"director\":\"Mark Mylod\",\r\n\"releaseDate\":\"2011-04-17\",\r\n\"episodes\":[\r\n{\r\n\"season\": 1,\r\n\"episode\": 1,\r\n\"name\": \"Winter is Coming\",\r\n\"air_date\": \"2011-04-18 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 2,\r\n\"name\": \"The Kingsroad\",\r\n\"air_date\": \"2011-04-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 3,\r\n\"name\": \"Lord Snow\",\r\n\"air_date\": \"2011-05-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 4,\r\n\"name\": \"Cripples, Bastards, and Broken Things\",\r\n\"air_date\": \"2011-05-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 5,\r\n\"name\": \"The Wolf and the Lion\",\r\n\"air_date\": \"2011-05-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 6,\r\n\"name\": \"A Golden Crown\",\r\n\"air_date\": \"2011-05-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 7,\r\n\"name\": \"You Win or You Die\",\r\n\"air_date\": \"2011-05-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 8,\r\n\"name\": \"The Pointy End\",\r\n\"air_date\": \"2011-06-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 9,\r\n\"name\": \"Baelor\",\r\n\"air_date\": \"2011-06-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 10,\r\n\"name\": \"Fire and Blood\",\r\n\"air_date\": \"2011-06-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 1,\r\n\"name\": \"The North Remembers\",\r\n\"air_date\": \"2012-04-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 2,\r\n\"name\": \"The Night Lands\",\r\n\"air_date\": \"2012-04-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 3,\r\n\"name\": \"What is Dead May Never Die\",\r\n\"air_date\": \"2012-04-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 4,\r\n\"name\": \"Garden of Bones\",\r\n\"air_date\": \"2012-04-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 5,\r\n\"name\": \"The Ghost of Harrenhal\",\r\n\"air_date\": \"2012-04-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 6,\r\n\"name\": \"The Old Gods and the New\",\r\n\"air_date\": \"2012-05-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 7,\r\n\"name\": \"A Man Without Honor\",\r\n\"air_date\": \"2012-05-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 8,\r\n\"name\": \"The Prince of Winterfell\",\r\n\"air_date\": \"2012-05-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 9,\r\n\"name\": \"Blackwater\",\r\n\"air_date\": \"2012-05-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 10,\r\n\"name\": \"Valar Morghulis\",\r\n\"air_date\": \"2012-06-04 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 1,\r\n\"name\": \"Valar Dohaeris\",\r\n\"air_date\": \"2013-04-01 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 2,\r\n\"name\": \"Dark Wings, Dark Words\",\r\n\"air_date\": \"2013-04-08 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 3,\r\n\"name\": \"Walk of Punishment\",\r\n\"air_date\": \"2013-04-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 4,\r\n\"name\": \"And Now His Watch is Ended\",\r\n\"air_date\": \"2013-04-22 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 5,\r\n\"name\": \"Kissed by Fire\",\r\n\"air_date\": \"2013-04-29 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 6,\r\n\"name\": \"The Climb\",\r\n\"air_date\": \"2013-05-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 7,\r\n\"name\": \"The Bear and the Maiden Fair\",\r\n\"air_date\": \"2013-05-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 8,\r\n\"name\": \"Second Sons\",\r\n\"air_date\": \"2013-05-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 9,\r\n\"name\": \"The Rains of Castamere\",\r\n\"air_date\": \"2013-06-03 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 10,\r\n\"name\": \"Mhysa\",\r\n\"air_date\": \"2013-06-10 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 1,\r\n\"name\": \"Two Swords\",\r\n\"air_date\": \"2014-04-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 2,\r\n\"name\": \"The Lion and the Rose\",\r\n\"air_date\": \"2014-04-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 3,\r\n\"name\": \"Breaker of Chains\",\r\n\"air_date\": \"2014-04-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 4,\r\n\"name\": \"Oathkeeper\",\r\n\"air_date\": \"2014-04-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 5,\r\n\"name\": \"First of His Name\",\r\n\"air_date\": \"2014-05-05 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 6,\r\n\"name\": \"The Laws of Gods and Men\",\r\n\"air_date\": \"2014-05-12 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 7,\r\n\"name\": \"Mockingbird\",\r\n\"air_date\": \"2014-05-19 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 8,\r\n\"name\": \"The Mountain and the Viper\",\r\n\"air_date\": \"2014-06-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 9,\r\n\"name\": \"The Watchers on the Wall\",\r\n\"air_date\": \"2014-06-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 10,\r\n\"name\": \"The Children\",\r\n\"air_date\": \"2014-06-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 1,\r\n\"name\": \"The Wars to Come\",\r\n\"air_date\": \"2015-04-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 2,\r\n\"name\": \"The House of Black and White\",\r\n\"air_date\": \"2015-04-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 3,\r\n\"name\": \"High Sparrow\",\r\n\"air_date\": \"2015-04-27 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 4,\r\n\"name\": \"Sons of the Harpy\",\r\n\"air_date\": \"2015-05-04 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 5,\r\n\"name\": \"Kill the Boy\",\r\n\"air_date\": \"2015-05-11 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 6,\r\n\"name\": \"Unbowed, Unbent, Unbroken\",\r\n\"air_date\": \"2015-05-18 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 7,\r\n\"name\": \"The Gift\",\r\n\"air_date\": \"2015-05-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 8,\r\n\"name\": \"Hardhome\",\r\n\"air_date\": \"2015-06-01 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 9,\r\n\"name\": \"The Dance of Dragons\",\r\n\"air_date\": \"2015-06-08 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 10,\r\n\"name\": \"Mother's Mercy\",\r\n\"air_date\": \"2015-06-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 1,\r\n\"name\": \"The Red Woman\",\r\n\"air_date\": \"2016-04-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 2,\r\n\"name\": \"Home\",\r\n\"air_date\": \"2016-05-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 3,\r\n\"name\": \"Oathbreaker\",\r\n\"air_date\": \"2016-05-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 4,\r\n\"name\": \"Book of the Stranger\",\r\n\"air_date\": \"2016-05-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 5,\r\n\"name\": \"The Door\",\r\n\"air_date\": \"2016-05-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 6,\r\n\"name\": \"Blood of My Blood\",\r\n\"air_date\": \"2016-05-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 7,\r\n\"name\": \"The Broken Man\",\r\n\"air_date\": \"2016-06-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 8,\r\n\"name\": \"No One\",\r\n\"air_date\": \"2016-06-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 9,\r\n\"name\": \"Battle of the Bastards\",\r\n\"air_date\": \"2016-06-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 10,\r\n\"name\": \"The Winds of Winter\",\r\n\"air_date\": \"2016-06-27 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 1,\r\n\"name\": \"Dragonstone\",\r\n\"air_date\": \"2017-07-17 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 2,\r\n\"name\": \"Stormborn\",\r\n\"air_date\": \"2017-07-24 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 3,\r\n\"name\": \"The Queen's Justice\",\r\n\"air_date\": \"2017-07-31 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 4,\r\n\"name\": \"The Spoils of War\",\r\n\"air_date\": \"2017-08-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 5,\r\n\"name\": \"Eastwatch\",\r\n\"air_date\": \"2017-08-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 6,\r\n\"name\": \"Beyond the Wall\",\r\n\"air_date\": \"2017-08-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 7,\r\n\"name\": \"The Dragon and the Wolf\",\r\n\"air_date\": \"2017-08-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 1,\r\n\"name\": \"Winterfell\",\r\n\"air_date\": \"2019-04-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 2,\r\n\"name\": \"A Knight of the Seven Kingdoms\",\r\n\"air_date\": \"2019-04-22 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 3,\r\n\"name\": \"The Long Night\",\r\n\"air_date\": \"2019-04-29 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 4,\r\n\"name\": \"The Last of the Starks\",\r\n\"air_date\": \"2019-05-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 5,\r\n\"name\": \"The Bells\",\r\n\"air_date\": \"2019-05-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 6,\r\n\"name\": \"The Iron Throne\",\r\n\"air_date\": \"2019-05-20 01:00:00\"\r\n}\r\n]\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/tvshows",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tvshows"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/tvshows/id",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Game of Thro\"\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/tvshows/618bc35b5a19babb9ef10753",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tvshows",
+								"618bc35b5a19babb9ef10753"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Game of Thrones\",\r\n    \"genre\":[\r\n\"Drama\",\r\n\"Adventure\",\r\n\"Fantasy\"\r\n],\r\n\"director\":\"Mark Mylod\",\r\n\"releaseDate\":\"2011-04-17\",\r\n\"episodes\":[\r\n{\r\n\"season\": 1,\r\n\"episode\": 1,\r\n\"name\": \"Winter is Coming\",\r\n\"air_date\": \"2011-04-18 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 2,\r\n\"name\": \"The Kingsroad\",\r\n\"air_date\": \"2011-04-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 3,\r\n\"name\": \"Lord Snow\",\r\n\"air_date\": \"2011-05-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 4,\r\n\"name\": \"Cripples, Bastards, and Broken Things\",\r\n\"air_date\": \"2011-05-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 5,\r\n\"name\": \"The Wolf and the Lion\",\r\n\"air_date\": \"2011-05-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 6,\r\n\"name\": \"A Golden Crown\",\r\n\"air_date\": \"2011-05-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 7,\r\n\"name\": \"You Win or You Die\",\r\n\"air_date\": \"2011-05-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 8,\r\n\"name\": \"The Pointy End\",\r\n\"air_date\": \"2011-06-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 9,\r\n\"name\": \"Baelor\",\r\n\"air_date\": \"2011-06-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 1,\r\n\"episode\": 10,\r\n\"name\": \"Fire and Blood\",\r\n\"air_date\": \"2011-06-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 1,\r\n\"name\": \"The North Remembers\",\r\n\"air_date\": \"2012-04-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 2,\r\n\"name\": \"The Night Lands\",\r\n\"air_date\": \"2012-04-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 3,\r\n\"name\": \"What is Dead May Never Die\",\r\n\"air_date\": \"2012-04-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 4,\r\n\"name\": \"Garden of Bones\",\r\n\"air_date\": \"2012-04-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 5,\r\n\"name\": \"The Ghost of Harrenhal\",\r\n\"air_date\": \"2012-04-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 6,\r\n\"name\": \"The Old Gods and the New\",\r\n\"air_date\": \"2012-05-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 7,\r\n\"name\": \"A Man Without Honor\",\r\n\"air_date\": \"2012-05-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 8,\r\n\"name\": \"The Prince of Winterfell\",\r\n\"air_date\": \"2012-05-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 9,\r\n\"name\": \"Blackwater\",\r\n\"air_date\": \"2012-05-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 2,\r\n\"episode\": 10,\r\n\"name\": \"Valar Morghulis\",\r\n\"air_date\": \"2012-06-04 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 1,\r\n\"name\": \"Valar Dohaeris\",\r\n\"air_date\": \"2013-04-01 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 2,\r\n\"name\": \"Dark Wings, Dark Words\",\r\n\"air_date\": \"2013-04-08 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 3,\r\n\"name\": \"Walk of Punishment\",\r\n\"air_date\": \"2013-04-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 4,\r\n\"name\": \"And Now His Watch is Ended\",\r\n\"air_date\": \"2013-04-22 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 5,\r\n\"name\": \"Kissed by Fire\",\r\n\"air_date\": \"2013-04-29 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 6,\r\n\"name\": \"The Climb\",\r\n\"air_date\": \"2013-05-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 7,\r\n\"name\": \"The Bear and the Maiden Fair\",\r\n\"air_date\": \"2013-05-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 8,\r\n\"name\": \"Second Sons\",\r\n\"air_date\": \"2013-05-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 9,\r\n\"name\": \"The Rains of Castamere\",\r\n\"air_date\": \"2013-06-03 01:00:00\"\r\n},\r\n{\r\n\"season\": 3,\r\n\"episode\": 10,\r\n\"name\": \"Mhysa\",\r\n\"air_date\": \"2013-06-10 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 1,\r\n\"name\": \"Two Swords\",\r\n\"air_date\": \"2014-04-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 2,\r\n\"name\": \"The Lion and the Rose\",\r\n\"air_date\": \"2014-04-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 3,\r\n\"name\": \"Breaker of Chains\",\r\n\"air_date\": \"2014-04-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 4,\r\n\"name\": \"Oathkeeper\",\r\n\"air_date\": \"2014-04-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 5,\r\n\"name\": \"First of His Name\",\r\n\"air_date\": \"2014-05-05 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 6,\r\n\"name\": \"The Laws of Gods and Men\",\r\n\"air_date\": \"2014-05-12 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 7,\r\n\"name\": \"Mockingbird\",\r\n\"air_date\": \"2014-05-19 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 8,\r\n\"name\": \"The Mountain and the Viper\",\r\n\"air_date\": \"2014-06-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 9,\r\n\"name\": \"The Watchers on the Wall\",\r\n\"air_date\": \"2014-06-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 4,\r\n\"episode\": 10,\r\n\"name\": \"The Children\",\r\n\"air_date\": \"2014-06-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 1,\r\n\"name\": \"The Wars to Come\",\r\n\"air_date\": \"2015-04-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 2,\r\n\"name\": \"The House of Black and White\",\r\n\"air_date\": \"2015-04-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 3,\r\n\"name\": \"High Sparrow\",\r\n\"air_date\": \"2015-04-27 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 4,\r\n\"name\": \"Sons of the Harpy\",\r\n\"air_date\": \"2015-05-04 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 5,\r\n\"name\": \"Kill the Boy\",\r\n\"air_date\": \"2015-05-11 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 6,\r\n\"name\": \"Unbowed, Unbent, Unbroken\",\r\n\"air_date\": \"2015-05-18 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 7,\r\n\"name\": \"The Gift\",\r\n\"air_date\": \"2015-05-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 8,\r\n\"name\": \"Hardhome\",\r\n\"air_date\": \"2015-06-01 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 9,\r\n\"name\": \"The Dance of Dragons\",\r\n\"air_date\": \"2015-06-08 01:00:00\"\r\n},\r\n{\r\n\"season\": 5,\r\n\"episode\": 10,\r\n\"name\": \"Mother's Mercy\",\r\n\"air_date\": \"2015-06-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 1,\r\n\"name\": \"The Red Woman\",\r\n\"air_date\": \"2016-04-25 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 2,\r\n\"name\": \"Home\",\r\n\"air_date\": \"2016-05-02 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 3,\r\n\"name\": \"Oathbreaker\",\r\n\"air_date\": \"2016-05-09 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 4,\r\n\"name\": \"Book of the Stranger\",\r\n\"air_date\": \"2016-05-16 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 5,\r\n\"name\": \"The Door\",\r\n\"air_date\": \"2016-05-23 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 6,\r\n\"name\": \"Blood of My Blood\",\r\n\"air_date\": \"2016-05-30 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 7,\r\n\"name\": \"The Broken Man\",\r\n\"air_date\": \"2016-06-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 8,\r\n\"name\": \"No One\",\r\n\"air_date\": \"2016-06-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 9,\r\n\"name\": \"Battle of the Bastards\",\r\n\"air_date\": \"2016-06-20 01:00:00\"\r\n},\r\n{\r\n\"season\": 6,\r\n\"episode\": 10,\r\n\"name\": \"The Winds of Winter\",\r\n\"air_date\": \"2016-06-27 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 1,\r\n\"name\": \"Dragonstone\",\r\n\"air_date\": \"2017-07-17 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 2,\r\n\"name\": \"Stormborn\",\r\n\"air_date\": \"2017-07-24 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 3,\r\n\"name\": \"The Queen's Justice\",\r\n\"air_date\": \"2017-07-31 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 4,\r\n\"name\": \"The Spoils of War\",\r\n\"air_date\": \"2017-08-07 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 5,\r\n\"name\": \"Eastwatch\",\r\n\"air_date\": \"2017-08-14 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 6,\r\n\"name\": \"Beyond the Wall\",\r\n\"air_date\": \"2017-08-21 01:00:00\"\r\n},\r\n{\r\n\"season\": 7,\r\n\"episode\": 7,\r\n\"name\": \"The Dragon and the Wolf\",\r\n\"air_date\": \"2017-08-28 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 1,\r\n\"name\": \"Winterfell\",\r\n\"air_date\": \"2019-04-15 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 2,\r\n\"name\": \"A Knight of the Seven Kingdoms\",\r\n\"air_date\": \"2019-04-22 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 3,\r\n\"name\": \"The Long Night\",\r\n\"air_date\": \"2019-04-29 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 4,\r\n\"name\": \"The Last of the Starks\",\r\n\"air_date\": \"2019-05-06 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 5,\r\n\"name\": \"The Bells\",\r\n\"air_date\": \"2019-05-13 01:00:00\"\r\n},\r\n{\r\n\"season\": 8,\r\n\"episode\": 6,\r\n\"name\": \"The Iron Throne\",\r\n\"air_date\": \"2019-05-20 01:00:00\"\r\n}\r\n]\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/tvshows",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"tvshows"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Movies",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Directors",
+			"item": [
+				{
+					"name": "http://localhost:3000/directors/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/directors/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"directors",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/directors/",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-access-token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/auth/signin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/auth/signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/auth/signin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "http://localhost:3000/users/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
